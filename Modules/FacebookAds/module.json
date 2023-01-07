@@ -1,0 +1,13 @@
+{
+    "name": "FacebookAds",
+    "alias": "facebookads",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\FacebookAds\\Providers\\FacebookAdsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

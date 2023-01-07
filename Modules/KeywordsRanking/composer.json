@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/keywordsranking",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\KeywordsRanking\\Providers\\KeywordsRankingServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KeywordsRanking\\": ""
+        }
+    }
+}

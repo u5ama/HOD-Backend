@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/googleadwords",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\GoogleAdwords\\Providers\\GoogleAdwordsServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GoogleAdwords\\": ""
+        }
+    }
+}

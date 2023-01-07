@@ -1,0 +1,13 @@
+{
+    "name": "ThirdParty",
+    "alias": "thirdparty",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ThirdParty\\Providers\\ThirdPartyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

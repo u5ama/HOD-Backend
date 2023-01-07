@@ -1,0 +1,13 @@
+{
+    "name": "GoogleAdwords",
+    "alias": "googleadwords",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\GoogleAdwords\\Providers\\GoogleAdwordsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

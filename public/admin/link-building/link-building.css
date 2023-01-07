@@ -1,0 +1,79 @@
+table.dataTable td.dataTables_empty {
+    text-align: center;
+}
+#uploadCSV{
+    cursor: pointer;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
+}
+
+.disabled #uploadCSV{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+}
+.hide-overflow
+{
+    overflow: hidden;
+}
+.preloader .cssload-speeding-wheel {
+    position: absolute;
+    top: calc(50% - 3.5px);
+    left: calc(50% - 3.5px);
+}
+.preloader-opacity
+{
+    opacity: 0.5;
+}
+
+.btn-white {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+}
+
+/*.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    /*background-color: grey;*/
+    /*outline: 0;*/
+/*}*/
+
+/*.dropdown-menu li a:hover, .dropdown-menu li a:focus {*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    /*background-color: blue;*/
+/*}*/

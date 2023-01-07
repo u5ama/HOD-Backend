@@ -1,0 +1,13 @@
+{
+    "name": "KeywordsRanking",
+    "alias": "keywordsranking",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\KeywordsRanking\\Providers\\KeywordsRankingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

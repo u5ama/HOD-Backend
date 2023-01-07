@@ -1,0 +1,12 @@
+{
+    "User": true,
+    "Business": true,
+    "ThirdParty": true,
+    "CRM": true,
+    "GoogleAnalytics": true,
+    "Admin": true,
+    "GoogleAdwords": true,
+    "Appointments": true,
+    "KeywordsRanking": true,
+    "FacebookAds": true
+}
